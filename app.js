@@ -12,5 +12,5 @@ var h5 = ['a', 'b', 'c', 'd', 'e', 'f', '0', '1', '2', '3', '4', '5', '6', '7', 
 var h6 = ['a', 'b', 'c', 'd', 'e', 'f', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
 
 
-var color = random_color(h1) + 'b';
+var color = random_color(h1) + random_color(h2) + random_color(h3) + random_color(h4) + random_color(h5) + random_color(h6);
 console.log(color);
