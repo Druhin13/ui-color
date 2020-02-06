@@ -1,4 +1,22 @@
-*{
+* {
 	margin: 0;
 	padding: 0;
+}
+
+.nav {
+	height: 8vh;
+	width: 100vw;
+	background-color: #131313;
+	text-align: center;
+}
+
+.color {
+	height: 85vh;
+	width: 100vw;
+	background-color: #EF6A6A;
+}
+
+.nav img {
+	height: 5.5vh;
+	margin-top: 1.25vh;
 }
