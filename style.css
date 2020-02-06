@@ -3,6 +3,10 @@
 	padding: 0;
 }
 
+body {
+	background-color: #131313;
+}
+
 .nav {
 	height: 8vh;
 	width: 100vw;
@@ -10,10 +14,24 @@
 	text-align: center;
 }
 
-.color {
-	height: 85vh;
+.all {
+	text-align: center;
+	height: 60vh;
 	width: 100vw;
+}
+
+.color {
+	height: 30rem;
+	width: 30rem;
+	border-radius: 50%;
 	background-color: #EF6A6A;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -15rem;
+	/* half width*/
+	margin-top: -15rem;
+	/* half height*/
 }
 
 .nav img {
