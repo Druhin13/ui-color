@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #131313;
+}
+
+.nav {
+	height: 10vh;
+	width: 100vw;
+	background-color: #131313;
+	text-align: center;
+}
+
+.all {
+	text-align: center;
+	height: 60vh;
+	width: 100vw;
+}
+
+.color {
+	height: 35rem;
+	width: 35rem;
+	border-radius: 50%;
+	background-color: #EF6A6A;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -17.5rem;
+	/* half width*/
+	margin-top: -17.5rem;
+	/* half height*/
+}
+
+.nav img {
+	height: 5.5vh;
+	width: auto;
+	margin-top: 2.25vh;
+}
